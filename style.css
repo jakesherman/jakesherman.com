@@ -1,0 +1,14 @@
+/*
+style.css - main stylesheet for jakesherman.github.io
+*/
+
+html, body{
+  width:100%;height:100%
+}
+
+body{
+  font-size:20px;
+  color:#000000;
+  position:relative;
+  background-color:#ffffff
+}
