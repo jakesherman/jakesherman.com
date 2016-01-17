@@ -1,36 +1,81 @@
 <!--
 index.html - INDEX for jakesherman.github.io
-Inspired (and in some cases copied from) ryanboye.com
+Inspired (and in many cases copied from) ryanboye.com
 -->
 
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta name="description" content="jake sherman">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jakesherman.github.io</title>
     <link href="style.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    
-    <!-- #container contains everything -->
     <div id='container'>
-      
-      <!-- .row acts like <tr>'s used to -->
-      <!-- self image -->
+
+      <!-- introduction -->
       <div class='row'>
-        <div id='jakephoto'>
-          <img src='jake.jpeg' alt='Jake Sherman' class='img-circle'>
+        <div class='introduction'>
+          <h1>
+            Jake Sherman
+          </h1>
         </div>
       </div>
-      
+
+      <!-- image -->
+      <div class='row'>
+        <div class='col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2 jakephoto'>
+          <img src='images/jake.jpg' alt='Jake Sherman' class='img-circle'>
+        </div>
+      </div>
+
       <!-- into line or paragraph -->
-      <div class='row'></div>
-      
+      <div class='row'>
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2  col-lg-6 col-lg-offset-3 statement'>
+          <h1>
+            I am passionate about <a href='http://github.com/jakesherman' class='data'>data analysis</a>,
+            <a href='https://soundcloud.com/user-2912870' class='music'>composing music</a> and
+            <a href='https://www.flickr.com/photos/realjakesherman/' class='photo'>photography</a>.
+          </h1>
+          <p>
+            During the day, I am a Research Analyst at <a href='http://www.burning-glass.com'>Burning Glass Technologies</a>,
+            where I use my data analysis skills to contribute to data products and build taxonomies. In my free time, I like
+            to write music, take photos, travel, and appreciate architecture and
+            design.
+          </p>
+        </div>
+      </div>
+
       <!-- social network buttons -->
-      <div class='row'></div>
-      
+      <div class='row'>
+        <div class='buttons'>
+          <a href='http://linkedin.com' class='github'>GitHub</a>
+        </div>
+      </div>
+
+      <!-- lower section -->
+      <div class='lower'>
+        <h2>
+          Selected hobby work
+        </h2>
+        <p>
+          Hello, testing!
+        </p>
+      </div>
+
     </div>
+
+    <div id="particles-js"></div>
+
+    <script src="particles.js"></script>
+
   </body>
 </html>
