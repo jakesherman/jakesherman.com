@@ -54,6 +54,7 @@ body {
 
 .statement {
   text-align:center;
+  margin-bottom: 30px;
 }
 
 .statement h1{
@@ -61,7 +62,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color:#ffffff;
   margin-top:10px;
-  margin-bottom:40px;
+  margin-bottom:50px;
   line-height:140%;
 }
 
@@ -79,6 +80,7 @@ body {
   color:#bfbfbf;
   border-bottom: dashed 1px #666666;
   text-decoration:none;
+  background: #212121;
 }
 
 .jakephoto {
@@ -88,93 +90,154 @@ body {
 
 .jakephoto img{
   width:100%;
-  max-width:140px
+  max-width:160px
 }
 
 a.data:link {
   padding-bottom:3px;
-  border-bottom:3px solid #52b5db;
   text-decoration:none;
-  color:#ffffff;
+  color:#E8E8E8;
+  border-bottom: none;
+  background: rgb(31, 136, 189);
+  background: rgba(31, 136, 189, 0.7);
 }
 
 a.data:visited {
   padding-bottom:3px;
-  border-bottom:3px solid #52b5db;
   text-decoration:none;
-  color:#ffffff;
+  color:#E8E8E8;
+  border-bottom: none;
+  background: rgb(31, 136, 189);
+  background: rgba(31, 136, 189, 0.7);
 }
 
 a.data:hover {
   padding-bottom:3px;
-  border-bottom:3px solid #52b5db;
   text-decoration:none;
+  background: rgb(31, 136, 189);
+  background: rgba(31, 136, 189, 1);
+}
+
+a.programming:link {
+  padding-bottom:3px;
+  text-decoration:none;
+  color:#E8E8E8;
+  border-bottom: none;
+  background: rgb(69, 57, 114);
+  background: rgba(69, 57, 114, 0.7);
+}
+
+a.programming:visited {
+  padding-bottom:3px;
+  text-decoration:none;
+  color:#E8E8E8;
+  border-bottom: none;
+  background: rgb(69, 57, 114);
+  background: rgba(69, 57, 114, 0.7);
+}
+
+a.programming:hover {
+  padding-bottom:3px;
+  text-decoration:none;
+  background: rgb(69, 57, 114);
+  background: rgba(69, 57, 114, 1);
 }
 
 a.music:link {
   padding-bottom:3px;
-  border-bottom:3px solid #536dd9;
+  border-bottom: none;
   text-decoration:none;
   color:#ffffff;
+  background: rgb(245, 82, 25);
+  background: rgba(245, 82, 25, 0.7);
 }
 
 a.music:visited {
   padding-bottom:3px;
-  border-bottom:3px solid #536dd9;
+  border-bottom: none;
   text-decoration:none;
   color:#ffffff;
+  background: rgb(245, 82, 25);
+  background: rgba(245, 82, 25, 0.7);
 }
 
 a.music:hover {
   padding-bottom:3px;
-  border-bottom:3px solid #536dd9;
   text-decoration:none;
+  background: rgb(245, 82, 25);
+  background: rgba(245, 82, 25, 1);
 }
 
 a.photo:link {
   padding-bottom:3px;
-  border-bottom:3px solid #7253d9;
+  border-bottom:none;
   text-decoration:none;
   color:#ffffff;
+  background: rgb(32, 32, 33);
+  background: rgba(32, 32, 33, 0.7);
 }
 
 a.photo:visited {
   padding-bottom:3px;
-  border-bottom:3px solid #7253d9;
+  border-bottom:none;
   text-decoration:none;
   color:#ffffff;
+  background: rgb(32, 32, 33);
+  background: rgba(32, 32, 33, 0.7);
 }
 
 a.photo:hover {
   padding-bottom:3px;
-  border-bottom:3px solid #7253d9;
   text-decoration:none;
-}
-
-.social {
-  padding:5px 10px;
-  color:#fff;
-  border-radius:5px
+  background: rgb(32, 32, 33);
+  background: rgba(32, 32, 33, 1);
 }
 
 .buttons {
   text-align:center;
+  margin-top: 10px;
 }
 
+.button {
+  padding:10px 30px;
+  color:#fff;
+  border-radius:5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
+  box-shadow: 2px 0px 2px 1px rgba(0.5, 0.5, 0, 0.2);
+}
+
+a.button:link {
+  color: #fff;
+}
+
+a.button:hover {
+  color: #fff;
+  text-decoration: none;
+  outline-offset: 20px;
+  opacity: 0.7;
+}
+
+a.button:visited {
+  color: #fff;
+}
+
+#linkedin{
+  background-color: #1F88BD;
+}
 
 #github{
-  background-color:#ebc424
+  background-color:#453972;
 }
 
-.lower{
-  margin:0 auto;
-  height:100%;
-  position:relative
+#soundcloud{
+  background-color: #F55219;
 }
 
-.lower p{
-  margin:0.9em auto
+#flickr{
+  background-color: #202021;
 }
-
-
-
