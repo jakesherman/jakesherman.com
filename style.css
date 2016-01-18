@@ -149,7 +149,7 @@ a.music:link {
   text-decoration:none;
   color:#ffffff;
   background: rgb(245, 82, 25);
-  background: rgba(245, 82, 25, 0.7);
+  background: rgba(245, 82, 25, 0.8);
 }
 
 a.music:visited {
@@ -158,7 +158,7 @@ a.music:visited {
   text-decoration:none;
   color:#ffffff;
   background: rgb(245, 82, 25);
-  background: rgba(245, 82, 25, 0.7);
+  background: rgba(245, 82, 25, 0.8);
 }
 
 a.music:hover {
