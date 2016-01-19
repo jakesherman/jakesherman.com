@@ -26,11 +26,24 @@ body {
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b1429',endColorstr='#1f1f1f',GradientType=1);
   line-height:40px;
   position:relative;
-  padding-top:2.5%;
-  color:#999;min-height:100%;
-  padding-bottom:20px;
+  color:#999;
+  min-height:100%;
   transition:padding 1s;
-  -webkit-transition:padding 1s;overflow:hidden
+  -webkit-transition:padding 1s;
+  overflow:hidden;
+}
+
+#subcont {
+  background: url(images/lines1.png) center top no-repeat;
+  padding-top:2.5%;
+  padding-bottom:10px;
+  transition:padding 1s;
+  -webkit-transition:padding 1s;
+  overflow:hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .row{
@@ -49,26 +62,26 @@ body {
   font-family: 'Lobster Two', cursive;
   color:#ffffff;
   margin-top:0px;
-  margin-bottom:40px
+  margin-bottom:30px
 }
 
 .statement {
   text-align:center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .statement h1{
   font-size:35px;
   font-family: 'Raleway', sans-serif;
   color:#ffffff;
-  margin-top:10px;
-  margin-bottom:40px;
+  margin-top:0px;
+  margin-bottom:30px;
   line-height:140%;
 }
 
 .statement p{
   font-family: 'Merriweather', serif;
-  font-size:20px;
+  font-size:18px;
 }
 
 .statement a{
@@ -85,7 +98,8 @@ body {
 
 .jakephoto {
   text-align:center;
-  margin-bottom:40px
+  margin-bottom:40px;
+  margin-top: 10px;
 }
 
 .jakephoto img{
@@ -208,7 +222,7 @@ a.photo:hover {
   letter-spacing: 2px;
   margin-left: 3px;
   margin-right: 3px;
-  box-shadow: 2px 0px 2px 1px rgba(0.5, 0.5, 0, 0.2);
+  box-shadow: 2px 0px 2px 1px rgba(36, 36, 36, 0.1);
 }
 
 a.button:link {
@@ -224,6 +238,7 @@ a.button:hover {
 
 a.button:visited {
   color: #fff;
+  text-decoration: none;
 }
 
 #linkedin{
@@ -240,4 +255,25 @@ a.button:visited {
 
 #flickr{
   background-color: #202021;
+}
+
+.footer {
+  text-align:center;
+  margin-top: 35px;
+  font-family: 'Merriweather', serif;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer a{
+  color:#bfbfbf;
+  border-bottom: dashed 1px #666666;
+}
+
+.footer a:hover{
+  color:#bfbfbf;
+  border-bottom: dashed 1px #666666;
+  text-decoration:none;
+  background: #212121;
 }
