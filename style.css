@@ -24,22 +24,21 @@ body {
   background:-webkit-linear-gradient(45deg,#1b1429 0%,#0e121a 48%,#1d1c1a 76%,#1f1f1f 100%);
   background:linear-gradient(45deg,#1b1429 0%,#0e121a 48%,#1d1c1a 76%,#1f1f1f 100%);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b1429',endColorstr='#1f1f1f',GradientType=1);
-  line-height:40px;
+  line-height:35px;
   position:relative;
   color:#999;
   min-height:100%;
   transition:padding 1s;
   -webkit-transition:padding 1s;
-  overflow:hidden;
+  overflow-x: hidden;
 }
 
 #subcont {
   background: url(images/lines1.png) center top no-repeat;
-  padding-top:2.5%;
+  padding-top:2%;
   padding-bottom:10px;
   transition:padding 1s;
   -webkit-transition:padding 1s;
-  overflow:hidden;
   position: absolute;
   left: 0;
   top: 0;
@@ -62,7 +61,7 @@ body {
   font-family: 'Lobster Two', cursive;
   color:#ffffff;
   margin-top:0px;
-  margin-bottom:30px
+  margin-bottom:25px
 }
 
 .statement {
@@ -75,7 +74,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color:#ffffff;
   margin-top:0px;
-  margin-bottom:30px;
+  margin-bottom:25px;
   line-height:140%;
 }
 
@@ -99,7 +98,7 @@ body {
 .jakephoto {
   text-align:center;
   margin-bottom:40px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .jakephoto img{
@@ -213,7 +212,7 @@ a.photo:hover {
 }
 
 .button {
-  padding:10px 30px;
+  padding:10px 17px;
   color:#fff;
   border-radius:5px;
   font-family: 'Open Sans Condensed', sans-serif;
