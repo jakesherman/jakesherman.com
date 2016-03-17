@@ -213,17 +213,18 @@ a.photo:hover {
 }
 
 .button {
-  padding:10px 17px;
+  padding:0px 17px;
   color:#fff;
   border-radius:5px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size:22px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
   box-shadow: 2px 0px 2px 1px rgba(36, 36, 36, 0.1);
   white-space: nowrap;
+  display: inline-block;
 }
 
 a.button:link {
