@@ -75,13 +75,14 @@ body {
   font-family: 'Raleway', sans-serif;
   color:#ffffff;
   margin-top:0px;
-  margin-bottom:25px;
+  margin-bottom:35px;
   line-height:140%;
 }
 
 .statement p{
   font-family: 'Merriweather', serif;
   font-size:18px;
+  padding-bottom: 20px;
 }
 
 .statement a{
@@ -209,7 +210,7 @@ a.photo:hover {
 
 .buttons {
   text-align:center;
-  margin-top: 10px;
+  margin-top: 0px;
   line-height: 50px;
 }
 
